@@ -4,6 +4,8 @@ An ETL pipeline from tweets crawling to sentiment analysis use Airflow to manage
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 This repository contains an [Airflow](https://airflow.apache.org/) workflow for schedualing ETL processing of tweets. the library used in this repository contains [Tweepy](https://www.tweepy.org/), [Pandas](https://pandas.pydata.org/), [Textblob](https://textblob.readthedocs.io/en/dev/) and [NLTK](nltk.org). We use the Tweepy API for crawling the tweets from the [Twitter](https://twitter.com/) Platform, Pandas for data manipulation, Textblob and NLTK for sentiment analysis of tweets. Airflow is programmed to schedule and monitor the collcetion process.
+![Graph View](https://github.com/Gineyc/Airflow_ETL_Pipeline/blob/master/img/pic1.png?raw=true)
+![Tree View](https://github.com/Gineyc/Airflow_ETL_Pipeline/blob/master/img/pic2.png?raw=true)
 
 # Installaion Airflow and preparation
 The following guidance is being tested, and suitable for Win 10 user who want to install Airflow without docker.
