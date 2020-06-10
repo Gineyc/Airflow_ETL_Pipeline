@@ -39,9 +39,9 @@ def tweets_crawling(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECR
 
 
 if __name__ == "__main__":
-    CONSUMER_KEY='shso0ywOWjCyx18lU9CYuyRvl'
-    CONSUMER_SECRET='b05wM2ld5bnvh6IoL0on4OG5AB6QTpxWYaueJ3QKvlaYQ0ATSp'
-    OAUTH_TOKEN='1095973961475731457-FtO6WPf2uy99BfFecuOwYaO7zLGZWG'
-    OAUTH_TOKEN_SECRET='Q9OGtT6BxAHqI3PVlv2ABSFgc7jRQlHRG0h2RU3yqxtDU'
+    CONSUMER_KEY=''
+    CONSUMER_SECRET=''
+    OAUTH_TOKEN=''
+    OAUTH_TOKEN_SECRET=''
     tweets_crawling(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET,hashtag='#plantbased', tweet_mode='extended', lang='en', result_type='mixed', pagecount=100, items=100)
 
